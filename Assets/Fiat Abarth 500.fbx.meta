@@ -1,0 +1,567 @@
+fileFormatVersion: 2
+guid: 6ee0d2bdfd3c6fe4c96b765e0ab363ae
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CAR_Cerchione
+    second: {fileID: 2100000, guid: 837748462dbb56b429796a1f1aeea9f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CAR_Cerchione_BLUR
+    second: {fileID: 2100000, guid: 2edb2f46c6fa9044abd221ec8f343115, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CAR_Cerchione_BLUR_Alpha
+    second: {fileID: 2100000, guid: c2d5bcf1ac5a20b49a0e63458b7c1ed7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CAR_DiscoFreni
+    second: {fileID: 2100000, guid: cbf474bb1f60dae42a0217f96492d6f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CAR_FariAnteriori
+    second: {fileID: 2100000, guid: dcdaa875c150f89449cfe2fa04297093, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CAR_GommaBattistrada
+    second: {fileID: 2100000, guid: af3ad1c4dc9faba469e8983cff7f9c53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CAR_Griglia
+    second: {fileID: 2100000, guid: 92f38dc135ce8344781a2d66de8988f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CAR_Livrea
+    second: {fileID: 2100000, guid: 99ea0b1770b2d3349a1070a7628a327c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CAR_Loghi
+    second: {fileID: 2100000, guid: ed3b3b5fbb049ff41a6cd83ab225f869, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CAR_LuciPosteriori
+    second: {fileID: 2100000, guid: 29fddc9a2e2162841a532ac83ac335e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CAR_PLASTICA
+    second: {fileID: 2100000, guid: a22cc2f211213814cbb3a82ebd16c0b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CAR_PinzaFreni
+    second: {fileID: 2100000, guid: 0293e938382f80c43a8a3c322758e3c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CAR_Scarico
+    second: {fileID: 2100000, guid: d7861086afb36804b83a1c2d31e6bef6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CAR_Sottoscocca
+    second: {fileID: 2100000, guid: 46a7b59354f0dca4da1e1604bec784a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CAR_Vetro
+    second: {fileID: 2100000, guid: de797aa837e5fb444bf577e139eb5e9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CAR_Vetro_Fanali_ANTERIORI
+    second: {fileID: 2100000, guid: fae7bccc57b7cd440b9b3e213a48d651, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CAR_Vetro_Fanali_POSTERIORI
+    second: {fileID: 2100000, guid: b9a15f06d9582eb43be469a95439b32c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DAMAGE_GLASS
+    second: {fileID: 2100000, guid: 6c40bb5fa19d5294f863971cdb601d39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EXT_PLATE_plastic
+    second: {fileID: 2100000, guid: 619f2929818cb3a42a6631af6e554c2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EXT_side_lights
+    second: {fileID: 2100000, guid: a9d33a80d66c712499459595f1023432, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GLOBAL_Specchio
+    second: {fileID: 2100000, guid: afc5a6672d885b54a940127b33c176a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INT_Altoparlanti
+    second: {fileID: 2100000, guid: a8a84754f6af25647b4b349977a1d172, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INT_Bianco_REF
+    second: {fileID: 2100000, guid: 3586b126407b6dc49848cb649823685e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INT_COLORE_Nero
+    second: {fileID: 2100000, guid: 7c7cfdf2fd4eff344809ee2983728090, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INT_Cintura
+    second: {fileID: 2100000, guid: 72aa187d2bea4964683f1e4b833858b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INT_Display
+    second: {fileID: 2100000, guid: b99f46a98882e4d4098ca02abc363471, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INT_Display_REF
+    second: {fileID: 2100000, guid: 0e5aa9f6aa1e0534bad8fa9a048bf90f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INT_Exstrusione_Leva_NM
+    second: {fileID: 2100000, guid: 42a7dae37f698b64ea0d8dc9c84944c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INT_Gomma_Guarnizioni
+    second: {fileID: 2100000, guid: 24fa716a6aeae1f44980b7de7459d947, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INT_Guaina_Cambio
+    second: {fileID: 2100000, guid: 4fcd929b9d5464c4298ddd8d04bb12ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INT_LCD
+    second: {fileID: 2100000, guid: 5c830f648aaea95458afa4d5928697cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INT_LR
+    second: {fileID: 2100000, guid: 0c610ce30aa7e614ab7c05e1a5b71053, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INT_Logo_500
+    second: {fileID: 2100000, guid: 49e08a9b43abb314f829fe84e50f1f8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INT_Logo_Airbag
+    second: {fileID: 2100000, guid: ad7723c65d105544b98e639a86a60f27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INT_Logo_Cambio
+    second: {fileID: 2100000, guid: cc61aa13da0730744bbc3cea8be06eb7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INT_Metallo_Bianco
+    second: {fileID: 2100000, guid: 88ac8ebee5f0e964ea10cd423289c54e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INT_Metallo_Nero
+    second: {fileID: 2100000, guid: 32e01ba40fbef67449e75f48a4a926cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INT_Metallo_Satinato
+    second: {fileID: 2100000, guid: 50cb45db98d254342a4f6733d064f5d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INT_Pedali
+    second: {fileID: 2100000, guid: 454eb53fe9080f748bc27da0d3da5a41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INT_Pedana
+    second: {fileID: 2100000, guid: 4c67939751785534e8880eb0eb8bb9d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INT_Plancia
+    second: {fileID: 2100000, guid: 98351dfcb9bbd674c9d70d67421b59cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INT_Plastica_Nera_REF
+    second: {fileID: 2100000, guid: a56cf1b0433098c4e9c53e801096b32f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INT_Plastica_Plancia
+    second: {fileID: 2100000, guid: a53e2b9ba5e626f45b6b0b4ff7126ebc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INT_Plastica_Rossa
+    second: {fileID: 2100000, guid: 40416ce5da211de4cb5c57a59268d1d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INT_Skin
+    second: {fileID: 2100000, guid: 2df6aeef1ee43b542af7f9311249478c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INT_Skin_Spugna
+    second: {fileID: 2100000, guid: 95385012fd335a24280b9bc928027db7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INT_Tappeto
+    second: {fileID: 2100000, guid: 8a6a20d7ec5e021429a3c18fd710b92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INT_Tappeto_Gomma
+    second: {fileID: 2100000, guid: 70a7ee188ade1f146bfc1a3cd5094a04, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INT_Telaio
+    second: {fileID: 2100000, guid: e6b724b6c9b7aba49a3a8577c5723afb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INT_Tessuto_soffitto
+    second: {fileID: 2100000, guid: 15944f0f518d7f34bae274ee63470451, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INT_Vetro
+    second: {fileID: 2100000, guid: 3bca3cdc3d571cc489fbcb8d3cbb9109, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INT_Vetro_Display
+    second: {fileID: 2100000, guid: 154679c5ce5b0f34490c026cff72f8cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INT_Vetro_Laterale
+    second: {fileID: 2100000, guid: fe0c314b9ffab664bace55f65eb34bac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INT_Volante
+    second: {fileID: 2100000, guid: a261203d25b653744ae82ce89695a61a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INT_Volante_METALLO
+    second: {fileID: 2100000, guid: 58d2656f73eeb684489b18096d060d91, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INT_Zona1_tessuto
+    second: {fileID: 2100000, guid: 5416cac97bc4197449d45f768a653a42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INT_Zona2_Strip
+    second: {fileID: 2100000, guid: 5a3ba7268b8182646b89eff29502395e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INT_cuciture_NM
+    second: {fileID: 2100000, guid: a264711a26b0ea14685d8c9929360bf3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INT_cuciture_NM_skin
+    second: {fileID: 2100000, guid: ebb5aaf7e4c38724ab38f6f94b115e78, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CAR_Cerchione_BLUR_Alpha_baseColor
+    second: {fileID: 2800000, guid: 21c3b41d9959a674caf5a56c2f8753c2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CAR_Cerchione_BLUR_baseColor
+    second: {fileID: 2800000, guid: fc3b63b318472614ab6c8b0d2726bbc7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CAR_Cerchione_baseColor
+    second: {fileID: 2800000, guid: 578b00f04187cc94bb493c0ae22558cc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CAR_DiscoFreni_baseColor
+    second: {fileID: 2800000, guid: 82a4da6608c391f4bb44ab83e649bd6d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CAR_FariAnteriori_baseColor
+    second: {fileID: 2800000, guid: a063ad43529b8784da49d76b4b5eadca, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CAR_GommaBattistrada_baseColor
+    second: {fileID: 2800000, guid: d692574fc60d5e547b4d539a628886e1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CAR_Griglia_baseColor
+    second: {fileID: 2800000, guid: 37f501ed870e5664b91e912684b60936, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CAR_Loghi_normal
+    second: {fileID: 2800000, guid: f63e7503557ce434194f4acc3e20abc1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CAR_LuciPosteriori_baseColor
+    second: {fileID: 2800000, guid: ff66ac6c1d830f04283c3fa752f64701, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CAR_PLASTICA_baseColor
+    second: {fileID: 2800000, guid: a7ce6dbe1a9460542b0d7e129471de08, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CAR_Vetro_Fanali_ANTERIORI_baseColor
+    second: {fileID: 2800000, guid: 1ccf08395c287f044bc5b04f1441baba, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DAMAGE_GLASS_baseColor
+    second: {fileID: 2800000, guid: e1b7242934300fe40b44fbe36863e1a4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: EXT_PLATE_plastic_baseColor
+    second: {fileID: 2800000, guid: 82c9446a553745f469355511ee22e725, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GLOBAL_Specchio_baseColor
+    second: {fileID: 2800000, guid: 0ab658208e512c841afec794a0f35598, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: INT_Cintura_baseColor
+    second: {fileID: 2800000, guid: 1023bfdc4fc14aa4abfc5d10e4b1f22b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: INT_Display_baseColor
+    second: {fileID: 2800000, guid: bb60de0a86c01d541bd6d3e9759995c8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: INT_Exstrusione_Leva_NM_baseColor
+    second: {fileID: 2800000, guid: f159bde518084ef489c4229f05ad46fb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: INT_LCD_baseColor
+    second: {fileID: 2800000, guid: c191144189743ee4690d93033c24721a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: INT_LR_baseColor
+    second: {fileID: 2800000, guid: a8b91ddab616bb647a2c33573c5b988d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: INT_Logo_500_baseColor
+    second: {fileID: 2800000, guid: 10a799fe2ba36d546a7f4847c669f214, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: INT_Logo_Airbag_baseColor
+    second: {fileID: 2800000, guid: 6bdb6163e2ee0604ab03b99f25152221, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: INT_Logo_Cambio_baseColor
+    second: {fileID: 2800000, guid: 82f91d9170e2fcf48bb5435c6ce7a922, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: INT_Metallo_Nero_baseColor
+    second: {fileID: 2800000, guid: 4defda89ebda34a4b819405d5e99aa19, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: INT_Plancia_baseColor
+    second: {fileID: 2800000, guid: 0f69e6e4d749e7743b3225c56b166fb8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: INT_Plastica_Plancia_baseColor
+    second: {fileID: 2800000, guid: 105c839dfe5500b4d8fb778667e8ffd9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: INT_Plastica_Rossa_baseColor
+    second: {fileID: 2800000, guid: 770467123f8df7349b018a94cdc3b166, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: INT_Skin_Spugna_baseColor
+    second: {fileID: 2800000, guid: cf7a90c462055df4c916e8da04542c67, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: INT_Skin_baseColor
+    second: {fileID: 2800000, guid: 92543c92bb799f04bae327412828f8ca, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: INT_Vetro_Display_baseColor
+    second: {fileID: 2800000, guid: 67146b480dce4ca40b5eeab6c96b2d93, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: INT_Volante_METALLO_baseColor
+    second: {fileID: 2800000, guid: 7f8fc8f5cd4f7844b814ac009ff28b98, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: INT_Volante_baseColor
+    second: {fileID: 2800000, guid: e5f204eb2f14c624d8d81ed03bd0a20a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: INT_Zona1_tessuto_baseColor
+    second: {fileID: 2800000, guid: 146b408fe7a7620448b12afa404abbdc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: INT_cuciture_NM_baseColor
+    second: {fileID: 2800000, guid: 60d3941fce2f6334a9ef36c285f8cbe0, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
